@@ -1,0 +1,8 @@
+build
+Daten
+dbc
+dist
+main.spec
+venv
+.idea/
+__pycache__/
