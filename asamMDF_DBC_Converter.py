@@ -1,6 +1,6 @@
 from pathlib import Path
 from asammdf import MDF
-import sys
+import sys, os
 
 def main():
     # set variables
@@ -21,7 +21,7 @@ def main():
     print("Path is:", path)
     path_in = Path(path, input_folder)
     path_out = Path(path, output_folder)
-
+    os.mkdir(path_out)
     # load MDF/DBC files from input folder
 
     logfiles = list(path_in.glob("*" + mdf_extension))
