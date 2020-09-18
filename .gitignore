@@ -1,8 +1,8 @@
 build
+dist
 Daten
 dbc
-dist
-main.spec
+*.spec
 venv
 .idea/
 __pycache__/

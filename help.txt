@@ -1,0 +1,11 @@
+# Help Text
+usage: asamMDF_DBC_Converter.py [-h] [--fileName fn] [--inputDir in-dir]
+                                [--outputDir out-dir]
+
+DBC convert multiple MDF files with same structure to one large .mat file
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --fileName fn        name of the output .mat file, default=dbc_converted_mf
+  --inputDir in-dir    directory of your input folder, default=input
+  --outputDir out-dir  directory of your output folder,default=output
