@@ -61,8 +61,8 @@ def main():
         filename=Path(path_out, filename),
         time_as_date=True,
         time_from_zero=False,
-        single_time_base=True,
-        raster=0.5,
+        single_time_base=False,
+        # raster=0.5,
     )
     print("DBC Converting finished and exported to .mat file")
 
